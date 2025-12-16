@@ -1,0 +1,84 @@
+adc:
+  block: ADC
+  version: v2
+comp:
+  block: COMP
+rcc:
+  have_rcc: false
+  block: RCC
+  version: f072
+  pins:
+    - pin: PA1
+      signal: MCO
+      af: 0 # TODO
+pwr:
+  block: PWR
+gpio:
+  block: GPIO
+  version: v1
+exti:
+  have_rcc: false
+  block: EXTI
+  version: v1
+lptim:
+  block: LPTIM
+usart:
+  block: USART
+  version: v1
+rtc:
+  block: RTC
+  rcc_name: RTCAPB
+iwdg:
+  have_rcc: false
+  block: IWDG
+wwdg:
+  block: WWDG
+tim:
+  kind: timer
+  version: v1
+  specifics:
+    - name: TIM1
+      block: TIM_ADV
+    - name: TIM2
+      block: TIM_GP32
+    - name: TIM3
+      block: TIM_GP16
+    - name: TIM6
+      block: TIM_BASIC
+    - name: TIM7
+      block: TIM_BASIC
+    - name: TIM14
+      block: TIM_1CH_CMP
+    - name: TIM15
+      block: TIM_1CH_CMP
+    - name: TIM16
+      block: TIM_1CH_CMP
+    - name: TIM17
+      block: TIM_1CH_CMP
+
+syscfg:
+  block: SYSCFG
+  version: f072
+dma:
+  block: DMA
+  version: f072
+  bus_clock: HCLK1
+flash:
+  block: FLASH
+  version: f072
+  bus_clock: HCLK1
+crc:
+  block: CRC
+spi:
+  block: SPI
+i2c:
+  block: I2C
+  version: v1
+dbgmcu:
+  block: DBGMCU
+led:
+  block: LED
+usb:
+  block: USB
+  version: v1
+  bus_clock: PLL

@@ -1,0 +1,4 @@
+PY32F030:
+  die: DIE030
+  peripherals:
+    - RCC

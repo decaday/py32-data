@@ -1,0 +1,8 @@
+DIE002B:
+  svd: PY32F002Bx.svd
+
+DIE030:
+  svd: PY32F072xx.svd
+
+DIE072:
+  svd: PY32F072xx.svd

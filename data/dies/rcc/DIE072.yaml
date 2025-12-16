@@ -1,0 +1,180 @@
+ADC:
+  enable:
+    field: ADCEN
+    register: APBENR2
+  reset:
+    field: ADCRST
+    register: APBRSTR2
+COMP1:
+  enable:
+    field: COMP1EN
+    register: APBENR2
+  reset:
+    field: COMP1RST
+    register: APBRSTR2
+COMP2:
+  enable:
+    field: COMP2EN
+    register: APBENR2
+  reset:
+    field: COMP2RST
+    register: APBRSTR2
+CRC:
+  enable:
+    field: CRCEN
+    register: AHBENR
+  reset:
+    field: CRCRST
+    register: AHBRSTR
+DBGMCU:
+  enable:
+    field: DBGEN
+    register: APBENR1
+  reset:
+    field: DBGRST
+    register: APBRSTR1
+DMA:
+  enable:
+    field: DMAEN
+    register: AHBENR
+  reset:
+    field: DMARST
+    register: AHBRSTR
+FLASH:
+  enable:
+    field: FLASHEN
+    register: AHBENR
+  reset:
+    field: FLASHRST
+    register: AHBRSTR
+GPIOA:
+  enable:
+    field: GPIOAEN
+    register: IOPENR
+  reset:
+    field: GPIOARST
+    register: IOPRSTR
+GPIOB:
+  enable:
+    field: GPIOBEN
+    register: IOPENR
+  reset:
+    field: GPIOBRST
+    register: IOPRSTR
+GPIOF:
+  enable:
+    field: GPIOFEN
+    register: IOPENR
+  reset:
+    field: GPIOFRST
+    register: IOPRSTR
+I2C:
+  enable:
+    field: I2CEN
+    register: APBENR1
+  reset:
+    field: I2CRST
+    register: APBRSTR1
+LED:
+  enable:
+    field: LEDEN
+    register: APBENR2
+  reset:
+    field: LEDRST
+    register: APBRSTR2
+LPTIM:
+  enable:
+    field: LPTIMEN
+    register: APBENR1
+  reset:
+    field: LPTIMRST
+    register: APBRSTR1
+PWR:
+  enable:
+    field: PWREN
+    register: APBENR1
+  reset:
+    field: PWRRST
+    register: APBRSTR1
+RTCAPB:
+  enable:
+    field: RTCAPBEN
+    register: APBENR1
+SPI1:
+  enable:
+    field: SPI1EN
+    register: APBENR2
+  reset:
+    field: SPI1RST
+    register: APBRSTR2
+SPI2:
+  enable:
+    field: SPI2EN
+    register: APBENR1
+  reset:
+    field: SPI2RST
+    register: APBRSTR1
+SRAM:
+  enable:
+    field: SRAMEN
+    register: AHBENR
+SYSCFG:
+  enable:
+    field: SYSCFGEN
+    register: APBENR2
+  reset:
+    field: SYSCFGRST
+    register: APBRSTR2
+TIM1:
+  enable:
+    field: TIM1EN
+    register: APBENR2
+  reset:
+    field: TIM1RST
+    register: APBRSTR2
+TIM14:
+  enable:
+    field: TIM14EN
+    register: APBENR2
+  reset:
+    field: TIM14RST
+    register: APBRSTR2
+TIM16:
+  enable:
+    field: TIM16EN
+    register: APBENR2
+  reset:
+    field: TIM16RST
+    register: APBRSTR2
+TIM17:
+  enable:
+    field: TIM17EN
+    register: APBENR2
+  reset:
+    field: TIM17RST
+    register: APBRSTR2
+TIM3:
+  enable:
+    field: TIM3EN
+    register: APBENR1
+  reset:
+    field: TIM3RST
+    register: APBRSTR1
+USART1:
+  enable:
+    field: USART1EN
+    register: APBENR2
+  reset:
+    field: USART1RST
+    register: APBRSTR2
+USART2:
+  enable:
+    field: USART2EN
+    register: APBENR1
+  reset:
+    field: USART2RST
+    register: APBRSTR1
+WWDG:
+  enable:
+    field: WWDGEN
+    register: APBENR1
